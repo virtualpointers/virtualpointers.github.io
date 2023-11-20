@@ -1,0 +1,45 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFE699;
+    background-image:
+      repeating-linear-gradient(90deg, transparent 0, transparent 10px, #FFE699 11px, #FFE699 50px),
+      repeating-linear-gradient(180deg, #FFAA85 0, #FFAA85 10px, transparent 11px, transparent 50px);
+}
+
+.main-text {
+    color: #7a4141;
+    font-family: 'Inter', sans-serif;
+    font-size: 100px;
+}
+
+.parent {
+    width: 100%;
+    height: 100%;
+   
+    display: grid;
+}
+   
+.child {
+    text-align: center;
+    padding: 10px;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+.other-text {
+    color: #7a4141;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.submain-text {
+    color: #7a4141;
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+}
+
+

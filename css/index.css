@@ -1,6 +1,79 @@
 .link-text {
     color: #7a4141;
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
     text-decoration: underline;
+}
+
+.colourbox1 {
+    width: 400px;
+    height: 200px;
+    border: 5px;
+    --s: 300px; /* control the size*/
+    
+    --_g: radial-gradient(#0000 70%,#F0BB7F 71%);
+    background:
+      var(--_g),var(--_g) calc(var(--s)/2) calc(var(--s)/2),
+      conic-gradient(#F0B478 25%,#fdebad 0 50%,#F0C578 0 75%,#F0A77F 0);
+    background-size: var(--s) var(--s); 
+    border-style: solid;
+    border-color: #7a4141;
+    position: fixed;
+    bottom: 1%;
+    left: 1%;
+}
+
+.colourbox2 {
+    width: 400px;
+    height: 200px;
+    border: 5px;
+    --s: 300px; /* control the size*/
+    
+    --_g: radial-gradient(#0000 70%,#F0BB7F 71%);
+    background:
+      var(--_g),var(--_g) calc(var(--s)/2) calc(var(--s)/2),
+      conic-gradient(#F0B478 25%,#fdebad 0 50%,#F0C578 0 75%,#F0A77F 0);
+    background-size: var(--s) var(--s); 
+    border-style: solid;
+    border-color: #7a4141;
+    position: fixed;
+    bottom: 36%;
+    left: 1%;
+}
+
+.colourbox3 {
+    width: 400px;
+    height: 200px;
+    border: 5px;
+    --s: 300px; /* control the size*/
+    
+    --_g: radial-gradient(#0000 70%,#F0BB7F 71%);
+    background:
+      var(--_g),var(--_g) calc(var(--s)/2) calc(var(--s)/2),
+      conic-gradient(#F0B478 25%,#fdebad 0 50%,#F0C578 0 75%,#F0A77F 0);
+    background-size: var(--s) var(--s); 
+    border-style: solid;
+    border-color: #7a4141;
+    position: fixed;
+    top: 1%;
+    left: 1%;
+}
+
+.colourbox {
+    border: 5px;
+    border-style: solid;
+    border-color: #7a4141;
+    --s: 300px; /* control the size*/
+    
+    --_g: radial-gradient(#0000 70%,#F0BB7F 71%);
+    background:
+      var(--_g),var(--_g) calc(var(--s)/2) calc(var(--s)/2),
+      conic-gradient(#F0B478 25%,#fdebad 0 50%,#F0C578 0 75%,#F0A77F 0);
+    background-size: var(--s) var(--s); 
+}
+
+.text {
+    color: #7a4141;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    left: 1%;
 }

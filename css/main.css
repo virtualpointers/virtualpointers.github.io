@@ -1,12 +1,11 @@
-html, body {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #FFE699;
-    background-image:
-      repeating-linear-gradient(90deg, transparent 0, transparent 10px, #FFE699 11px, #FFE699 50px),
-      repeating-linear-gradient(180deg, #FFAA85 0, #FFAA85 10px, transparent 11px, transparent 50px);
+html {
+    --s: 120px; /* control the size*/
+    
+    --_g: radial-gradient(#0000 70%,#F0BB7F 71%);
+    background:
+      var(--_g),var(--_g) calc(var(--s)/2) calc(var(--s)/2),
+      conic-gradient(#F0B478 25%,#fdebad 0 50%,#F0C578 0 75%,#F0A77F 0);
+    background-size: var(--s) var(--s); 
 }
 
 .main-text {
@@ -23,7 +22,9 @@ html, body {
 }
    
 .child {
-    text-align: center;
+    position: fixed;
+    top: 40%;
+    left: 45%;
     padding: 10px;
     flex-direction: column;
     margin: auto;
@@ -40,6 +41,12 @@ html, body {
     color: #7a4141;
     font-family: 'Inter', sans-serif;
     font-size: 35px;
+}
+
+.supersubmain-text {
+    color: #7a4141;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
 }
 
 
